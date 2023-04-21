@@ -55,7 +55,7 @@ function draw() {
     confetti[i].confettiDisplay();
 
     if (confetti[i].y > height) {
-      confetti[i] = new Confetti(random(0, width), random(-height, 0), random(-1, 1));
+      confetti[i] = new Confetti(random(0, width*2), random(-height, 0), random(-1, 1));
     }
   }
 
@@ -63,7 +63,7 @@ function draw() {
     confetti[i].confettiDisplay();
 
     if (confetti[i].y > height) {
-      confetti[i] = new Confetti(random(0, width), random(-height, 0), random(-1, 1));
+      confetti[i] = new Confetti(random(0, width*2), random(-height, 0), random(-1, 1));
     }
   }
 
